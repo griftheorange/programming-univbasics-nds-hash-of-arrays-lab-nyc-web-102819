@@ -7,5 +7,5 @@ BASE_HOA = {
 
 def add_character(show, name)
   new_hash = BASE_HOA
-  new_hash[show] = name
+  new_hash[show].append(name)
 end
